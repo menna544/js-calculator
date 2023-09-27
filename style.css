@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calc {
+  background-color: #A9A9A9;
+  width: 12em;
+  border-radius: 15px;
+  height: 285px;
+  margin-left: 590px;
+  margin-top: 170px;
+}
+
+.screen {
+  font-size: 20px;
+}
+
+.head input {
+  width: 90%;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-color: black;
+  background-color: #E6E6FA;
+  border: 1px solid black;
+}
+
+
+.one {
+  width: 100%;
+  margin-top: 5px;
+  color: white;
+  margin-left: 9px;
+}
+
+#onee {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#dev {
+  background-color: #E6E6FA;
+  font-size: 20px;
+}
+
+.one button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+#col {
+  background-color: #4682B4;
+  font-size: 20px;
+}
+
+.two button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.two {
+  width: 100%;
+  color: white;
+  margin-top: 5px;
+  margin-left: 9px;
+}
+
+.three button {
+  border-radius: 50%;
+  width: 40px;
+  border: 1px solid black;
+  height: 40px;
+}
+
+.three {
+  width: 100%;
+  margin-top: 5px;
+  color: white;
+  margin-left: 9px;
+}
+
+.four button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.four {
+  width: 100%;
+  margin-top: 5px;
+  color: white;
+  margin-left: 9px;
+}
+
+.five button {
+  border-radius: 50%;
+  width: 40px;
+  border: 1px solid black;
+  height: 40px;
+}
+
+#fiv {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  padding-right: 50px;
+  font-size: 20px;
+
+  background-color: #4682B4;
+}
+
+.five {
+  width: 100%;
+  color: white;
+  margin-top: 5px;
+  margin-left: 11px;
+}
+
+@media(max-width:320px) {
+  .calc {
+    background-color: #A9A9A9;
+    width: 15em;
+    border-radius: 15px;
+    height: 340px;
+    margin-left: 40px;
+    margin-top: 150px;
+  }
+
+  .head input {
+    width: 93%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-color: black;
+    background-color: #E6E6FA;
+    border: 1px solid black;
+  }
+
+  .screen {
+    font-size: 25px;
+  }
+
+  .one {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 12px;
+  }
+
+  #onee {
+
+    font-size: 20px;
+  }
+
+  #dev {
+    background-color: #E6E6FA;
+    font-size: 20px;
+  }
+
+  .one button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  #col {
+    background-color: #4682B4;
+    font-size: 20px;
+  }
+
+  .two button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  .two {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .three button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+  }
+
+  .three {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .four button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  .four {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .five button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+  }
+
+  #fiv {
+    width: 100px;
+    height: 45px;
+    border-radius: 22px;
+    padding-right: 50px;
+    font-size: 20px;
+
+    background-color: #4682B4;
+  }
+
+  .five {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+}
+
+
+
+
+@media (min-width:321px)and (max-width:400px) {
+  .calc {
+    background-color: #A9A9A9;
+    width: 15em;
+    border-radius: 15px;
+    height: 340px;
+    margin-left: 50px;
+    margin-top: 150px;
+  }
+
+  .head input {
+    width: 93%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-color: black;
+    background-color: #E6E6FA;
+    border: 1px solid black;
+  }
+
+  .screen {
+    font-size: 25px;
+  }
+
+  .one {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 12px;
+  }
+
+  #onee {
+
+    font-size: 20px;
+  }
+
+  #dev {
+    background-color: #E6E6FA;
+    font-size: 20px;
+  }
+
+  .one button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  #col {
+    background-color: #4682B4;
+    font-size: 20px;
+  }
+
+  .two button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  .two {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .three button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+  }
+
+  .three {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .four button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  .four {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .five button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+  }
+
+  #fiv {
+    width: 100px;
+    height: 45px;
+    border-radius: 22px;
+    padding-right: 50px;
+    font-size: 20px;
+
+    background-color: #4682B4;
+  }
+
+  .five {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+}
+
+@media (min-width:401px)and (max-width:700px) {
+  .calc {
+    background-color: #A9A9A9;
+    width: 15em;
+    border-radius: 15px;
+    height: 340px;
+    margin-left: 90px;
+    margin-top: 150px;
+  }
+
+  .head input {
+    width: 93%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-color: black;
+    background-color: #E6E6FA;
+    border: 1px solid black;
+  }
+
+  .screen {
+    font-size: 25px;
+  }
+
+  .one {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 12px;
+  }
+
+  #onee {
+
+    font-size: 20px;
+  }
+
+  #dev {
+    background-color: #E6E6FA;
+    font-size: 20px;
+  }
+
+  .one button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  #col {
+    background-color: #4682B4;
+    font-size: 20px;
+  }
+
+  .two button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  .two {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .three button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+  }
+
+  .three {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .four button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  .four {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .five button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
+  }
+
+  #fiv {
+    width: 100px;
+    height: 45px;
+    border-radius: 22px;
+    padding-right: 50px;
+    font-size: 20px;
+
+    background-color: #4682B4;
+  }
+
+  .five {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+}
